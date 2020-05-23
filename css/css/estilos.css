@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+    background-image:
+      url('https://66.media.tumblr.com/b5e8e367ed7e6cc58c23feb750e0a08e/tumblr_p43ucz7HmE1uemipso1_1280.jpg');
+    background-size:100vw 100vh;
+    font-family: 'Righteous', cursive;
+    height:100vw;
+    
+  }
+  @media (min-widght: 400px){
+    body {
+      font-size: 14px;
+    }
+  }
+  @media (min-widght: 600px){
+    body {
+      font-size: 18px;
+    }
+  }
+  header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .menu {
+   background-color: White;
+   color: Black;
+   position: fixed;
+   width: 100vw;
+   top: 0;
+  }
+  .menu li{
+    list-style: none;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu a {
+  display: block;
+  padding: 10px 20px;   
+  }
+  a{
+    color: teal;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .site-subtitle,
+  .site-title{
+    color: whitesmoke;
+    text-align: center;
+  }
+  .site-title{
+    font-size: 4em;
+    font-family: 'Merienda', cursive;
+  }
+  .site-subtitle{
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.8em;
+  }
+  .portfolio h2{
+    color:yellow;
+    margin-bottom: 1.1em;
+    font-size: 1.5em;
+  }
+  .portfolio .grid {
+    display: grid;
+    gap: 2em;
+  }
+
+@media (min-width:675px){
+  .portfolio .grid {
+    grid-template-columns: repeat(2, 280px);
+  }
+}
+@media (min-width:880px){
+  .portfolio .grid {
+    grid-template-columns: repeat(3, 280px);
+    justify-content: center;
+    align-content: center;
+  
+  }
+}
+  .portfolio figure{
+    text-align: center;
+  }
+.portfolio{
+  background-image: 
+  url('https://4.bp.blogspot.com/-AMBSqRLEalc/Xmp7WRBVEBI/AAAAAAAAWOY/02YUH6TdlqUyvlkVa_E1BMRBOMdRfk_ewCLcBGAsYHQ/w914-h514-p-k-no-nu/call-of-duty-mobile-uhdpaper.com-4K-7.1332-wp.thumbnail.jpg');
+  background-size:100vw 100vh;
+  padding: 1em;
+}
+  .portfolio {
+    color: whitesmoke;
+    font-family:arial;
+    line-height: 1.1em;
+    font-size: 15pt;
+  }
+  
+  .img-portfolio {
+    height: 200px;
+  width: 315px;
+  object-fit: cover;
+  object-position: left ;
+  }
+  
+   
